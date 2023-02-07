@@ -11,3 +11,6 @@ class Solution:
             res.append(word[::-1])
             res.append(" ")
         return "".join(res).strip()
+
+        # Solution 2
+        return ' '.join(s.split()[::-1])[::-1]
